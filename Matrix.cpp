@@ -9,11 +9,12 @@ Matrix transpose(Matrix& A) {
     return B;
 }
 
+// This is a test commit
 Matrix dot(Matrix& A, Matrix& B) {
-    Matrix C(A.r, B.c);
-    for (int i = 0; i < A.r; ++i)
+    Matrix C(A.r,B.c);
+    for (int i = 0; i <A.r; ++i)
         for (int k = 0; k < A.c; ++k)
-            for (int j = 0; j < B.c; ++j)
-                C(i, j) += A(i, k) * B(k, j);
+            for (int j = 0; j <B.c; ++j)
+                C(i,j) += A(i,k) * B(k,j);
     return C;
 }
