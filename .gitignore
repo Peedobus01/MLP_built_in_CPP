@@ -1,0 +1,11 @@
+# Ignore large datasets
+*.csv
+
+# Ignore compiled binaries
+*.exe
+*.o
+*.out
+
+# Ignore artifacts/directories
+.vs/
+.vscode/
